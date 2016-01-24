@@ -6,8 +6,8 @@ sudo cp -R * /usr/local/
 cd ..
 sudo npm install -g node-gyp
 sudo apt-get -y install bluetooth bluez libbluetooth-dev libudev-dev
-mkdir sensortag-node-example
-cd sensortag-node-example
+cd ..
 sudo npm install noble
 sudo npm install sensortag
+
 
